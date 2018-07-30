@@ -3,6 +3,7 @@ package module2;
 import org.openqa.selenium.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class FacebookExample {
 
@@ -14,6 +15,14 @@ public class FacebookExample {
 
 		//Open AUT
 		driver.get("https://www.facebook.com/");
+		
+		driver.findElement(By.xpath("//*[@id='pass']//preceding::input[1]")).sendKeys("Abhresh");
+		
+		WebElement D = driver.findElement(By.xpath("//*[@id='day']//following::select[1]"));
+		
+		Select date = new Select(D);
+		
+		date.selectByVisibleText("Jan");
 		
 		/*// Using ID locator to enter data into various fields
 		driver.findElement(By.id("u_0_j")).sendKeys("Abhresh");
@@ -30,7 +39,7 @@ public class FacebookExample {
 		driver.findElement(By.linkText("Forgotten account?")).click();
 		driver.navigate().back();
 		driver.findElement(By.partialLinkText("Why do I need to")).click();
-		*/
+		
 		
 		// Using Xpath locator to enter data into various fields
 		// Absolute Xpath - "html/body/div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[2]/div/div[1]/input"
@@ -44,7 +53,7 @@ public class FacebookExample {
 		
 		// Using Css locator to enter data into various fields
 		driver.findElement(By.cssSelector("#u_0_j")).sendKeys("Abhresh");
-		
+		*/
 	}
 	
 
