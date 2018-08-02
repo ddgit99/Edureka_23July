@@ -18,11 +18,13 @@ public class ExplicitWait {
 		//Open AUT
 		driver.get("https://seleniumautomationpractice.blogspot.com/2017/10/5-clearintervaltimer2-counter1-counter1.html");
 
-		WebDriverWait wait = new WebDriverWait(driver, 1);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("dynamicText4")));
-		//WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("dynamicText4")));
-		element.click();
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
+		//WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("dynamicText4")));
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("dynamicText4")));
+		element.click();
 	
+		
+		
 	}
 }

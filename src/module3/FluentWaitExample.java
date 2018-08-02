@@ -36,7 +36,6 @@ public class FluentWaitExample {
 				return element;
 			}
 		};
-
 		wait.until(function);
 		
 		driver.close();

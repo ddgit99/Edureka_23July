@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.internal.ProfilesIni;
 public class BrowserProfiling {
 
 	public static void main(String[] args) {
+		
 		ProfilesIni profile = new ProfilesIni();
 		
 		FirefoxProfile myprofile = profile.getProfile("SeleniumWebdriver");

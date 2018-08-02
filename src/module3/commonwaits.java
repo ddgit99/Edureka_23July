@@ -17,9 +17,8 @@ public class commonwaits {
 		//Open AUT
 		driver.get("https://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html");
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		
+		driver.manage().timeouts().setScriptTimeout(100, TimeUnit.SECONDS);
+				
 		driver.findElement(By.xpath("//*[@name='firstname']")).sendKeys("Abhresh");
 		
 		
