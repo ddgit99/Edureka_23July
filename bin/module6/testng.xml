@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="First Suite" verbose="1">
+	<test name="First Test">
+		<classes>
+			<class name="module6.DDT1"></class>
+			<class name="module6.Senario1"></class>
+			<class name="module6.Annotations"></class>
+		</classes>
+	</test>
+</suite>

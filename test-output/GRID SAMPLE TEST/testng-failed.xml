@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [GRID SAMPLE TEST]">
+  <test thread-count="2" name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="module7.GridExample">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- module7.GridExample -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed) -->
+</suite> <!-- Failed suite [GRID SAMPLE TEST] -->

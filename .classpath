@@ -36,5 +36,8 @@
 	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/Selenium_3.4/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/Selenium_3.4/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/Selenium_3.4/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Training/Programs/jar&amp;exe/eclipse-jee-oxygen-1-win32-x86_64/eclipse/plugins/org.testng_6.14.3.r201802240500.jar" sourcepath="D:/Training/Programs/jar&amp;exe/eclipse-jee-oxygen-1-win32-x86_64/eclipse/plugins/org.testng.source_6.14.3.r201802240500.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
