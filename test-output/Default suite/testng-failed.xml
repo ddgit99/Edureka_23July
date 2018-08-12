@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module9.DataDriven.DDT2">
+      <class name="module7.GridTest">
         <methods>
-          <include name="TestAUT"/>
-          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Setup"/>
+          <include name="SimpleTest"/>
         </methods>
-      </class> <!-- module9.DataDriven.DDT2 -->
+      </class> <!-- module7.GridTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
